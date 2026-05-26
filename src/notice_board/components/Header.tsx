@@ -2,14 +2,10 @@ import { BellRing } from "lucide-react";
 
 function Header() {
   return (
-    <div className="flex flex-col items-center w-full bg-slate-800">
-      <div className="bg-mist-300 px-60 py-8 rounded-t-2xl">
-        <div className="flex flex-row justify-start">
-          <div>
-            <BellRing />
-          </div>
-          <div>Quadro de Avisos</div>
-        </div>
+    <div className="bg-slate-600 flex flex-col gap-6">
+      <div className="flex flex-row items-center ">
+        <BellRing />
+        <div className="text-2xl font-light">Quadro de Avisos</div>
       </div>
     </div>
   );
