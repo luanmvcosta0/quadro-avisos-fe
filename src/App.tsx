@@ -1,7 +1,12 @@
 import "./index.css";
+import Header from "./notice_board/components/Header";
 
 function App() {
-  return <div>Quadro de Avisos</div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
 
 export default App;
