@@ -2,7 +2,7 @@ import { BellIcon } from "lucide-react";
 
 function Header() {
   return (
-    <div className="bg-gray-200 w-screen h-screen flex flex-col items-center">
+    <div className="flex flex-col items-center">
       <div className="flex flex-row bg-white rounded-t-2xl p-6 w-150 shadow-md mt-10 justify-between">
         <div className="flex flex-row gap-3">
           <div className="bg-amber-100 rounded-md w-10 h-10 flex flex-col items-center justify-center">
